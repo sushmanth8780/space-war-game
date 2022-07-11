@@ -1,0 +1,6 @@
+file=open('highscore','w')
+file.write('0')
+file.close()
+file=open('highscore','r')
+a=file.read()
+print(a)
